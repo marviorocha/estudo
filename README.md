@@ -4,5 +4,7 @@ Esse github é um reposítorio pessoal onde vou colocar algumas ideias e estudo 
 
 ## Notas do desenvolvedor:
 
---> Twitter (@marviorocha)[https://twitter.com/marviorocha]
+Dev: Marvio Roocha
+Website: [www.marviorocha.com](https://www.marviorocha.com)
+Twitter: [@marviorocha](https://twitter.com/marviorocha)
 
