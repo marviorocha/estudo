@@ -1,16 +1,17 @@
 import Head from 'next/head'
-
+import Menu from '../components/menu'
 export default function Home() {
   return (
     <div className="container">
+     
       <Head>
-        <title>Create Next App</title>
+        <title>Web Radio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+    <Menu></Menu>;
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Learn
         </h1>
 
         <p className="description">
@@ -54,7 +55,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
@@ -205,5 +206,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
