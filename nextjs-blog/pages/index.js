@@ -7,10 +7,7 @@ export default function Home() {
         <title>Web Radio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />;
-       
- 
-      
+      <Nav />
     </div>
   );
 }
