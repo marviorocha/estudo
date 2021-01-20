@@ -1,0 +1,19 @@
+
+<%= form_with model: customer do |f| %>
+
+<%= f.label :name, "Nome" %>  
+<%= f.text_field :name %>
+<%= f.label :email, "Email" %>
+<%= f.text_field :email %>
+<%= f.label :phone, "Telefone" %>
+<%= f.text_field :phone %>
+<%= f.label :avatar, "Avatar" %>
+<%= f.file_field :avatar %>
+
+<%  { 'S': 'Sim', 'N': 'Não'}.each do |key, field| %>
+    <%= f.radio_button :smoker, key %> <%= field %>  
+<% end %>
+
+<%= f.submit "Cadastrar Cliente" %>
+
+<% end %>

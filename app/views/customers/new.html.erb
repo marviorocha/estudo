@@ -1,0 +1,7 @@
+<h1>Novo Cliente</h1>
+   <% if flash[:alert] %>
+    <div class="notice"><%= flash[:alert] %></div>
+  <% end %>
+<%= render 'form', customer: @customer %>
+
+ 

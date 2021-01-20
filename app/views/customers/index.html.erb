@@ -1,0 +1,41 @@
+
+<h1>Lista de Clientes</h1>
+
+  <% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% end %>
+ 
+<table>
+<thead>
+<tr>
+<td>
+Nome:
+</td>
+<td>
+ 
+</td>
+<td>
+ 
+</td>
+</tr>
+</thead>
+<tbody>
+<% @customer.each do |customer| %>
+<tr>
+<td>
+<%= customer.name %> 
+</td>
+<td>
+<%= link_to "Mostrar", customer_path(customer) %>
+</td>
+<td>
+<%= link_to "Editar", edit_customer_path(customer) %>
+</td>
+</tr>
+ <% end %>
+</tbody>
+</table>
+
+
+
+<%= link_to "Novo Cliente", new_customer_path  %> 
